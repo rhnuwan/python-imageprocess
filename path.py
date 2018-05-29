@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-img = cv2.imread('path.jpg')
+img = cv2.imread('images/path.jpg')
 np.set_printoptions(threshold=np.nan)
 
 lower_blue = np.array([0, 0, 250])
